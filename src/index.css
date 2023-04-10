@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -5,7 +11,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #535050;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -107,4 +113,25 @@
   100% {
     opacity: 0;
   }
+}
+
+.screen{
+  height: 100vh;
+}
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+li{
+  background-color: #252222;
+  box-shadow: 4px 4px 6px 6px #888888;
+  height: 20rem;
+  width: 15rem;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  list-style: none;
 }

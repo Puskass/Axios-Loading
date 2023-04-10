@@ -2,7 +2,7 @@ import DataFetching from "./components/DataFetching";
 
 function App() {
   return (
-    <div>
+    <div >
       <DataFetching />
     </div>
   );

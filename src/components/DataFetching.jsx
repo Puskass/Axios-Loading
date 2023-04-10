@@ -22,7 +22,7 @@ const DataFetching = () => {
 
   return (
     <div>
-      <ul>
+      <ul className="screen">
         {loading ? (
           movies.map((movie) => <li key={movie.episode_id}> {movie.title} </li>)
         ) : (
